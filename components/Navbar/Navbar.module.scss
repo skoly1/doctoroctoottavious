@@ -1,0 +1,13 @@
+@import "../../styles/variables.scss";
+
+.navbar {
+  text-decoration: none;
+  color: black;
+}
+
+.btn {
+  color: $blueColor;
+  &:hover {
+    background-color: $blueColor;
+  }
+}

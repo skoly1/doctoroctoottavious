@@ -1,0 +1,21 @@
+.hero {
+  min-height: 50vh;
+  background: url("../../public/images/anxiety.jpg") center center no-repeat;
+  background-size: cover;
+  position: relative;
+  border-radius: 2rem;
+  margin: 2rem;
+}
+.hero:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.heroContent {
+  position: absolute;
+  bottom: 15px;
+  color: #fff;
+}
